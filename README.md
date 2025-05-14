@@ -29,6 +29,8 @@ RC 송수신기(RD9S)로부터 들어오는 PWM 신호를 이용해 **3개 LED**
 ---
 
 ## 🔌 배선 연결
+![전체 회로도 - 실제샷](Imgaes/Arch1.jpg)
+![전체 회로도 - 축약 버전](Images/Arch4.jpg)
 
 ### 1. 전원 & 접지  
 - **5V (아두이노 5V) →** 수신기 VCC, LED 모듈 공통 애노드(+5V)  
@@ -49,6 +51,9 @@ RC 송수신기(RD9S)로부터 들어오는 PWM 신호를 이용해 **3개 LED**
 | **RGB Red (PWM)**     | D5           | CH7 → Hue 변환 후 Red 채널                            |
 | **RGB Green (PWM)**   | D6           | CH7 → Hue 변환 후 Green 채널                          |
 | **RGB Blue (PWM)**    | D9           | CH7 → Hue 변환 후 Blue 채널                           |
+
+![수신기 확대 사진](Images/Arch2.jpg)
+![아두이노 핀 연결 확대 사진](Images/Arch3.jpg)
 
 ---
 

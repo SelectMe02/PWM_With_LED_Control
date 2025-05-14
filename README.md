@@ -53,8 +53,7 @@ RC 송수신기(RD9S)로부터 들어오는 PWM 신호를 이용해 **3개 LED**
 
 - **PinChangeInterrupt**: 디지털 핀의 상태 변화를 인터럽트로 감지  
   ```cpp
-  #include <PinChangeInterrupt.h>
-```
+  #include <PinChangeInterrupt.h>```
 
 ---
 

@@ -68,7 +68,7 @@ uint8_t pcintNum = digitalPinToPCINT(CH8_PIN);
 attachPCINT(pcintNum, ISR_ch8, CHANGE);
 
 // CHANGE 옵션: HIGH→LOW, LOW→HIGH 모두 트리거
-// 필요에 따라 RISING 또는 FALLING 으로 변경 가능
+// 필요에 따라 RISING 또는 FALLING 으로 변경 가능'''
 
 ## 2) ISR 작성
 
@@ -84,7 +84,7 @@ void ISR_ch8() {
     w8 = (dt >= 1000 && dt <= 2000) ? dt : 1500;
     ch8_upd = true;  // 새로운 데이터 도착 플래그
   }
-}
+}'''
 
 ## 3) 🧠 내부 동작 원리
 
